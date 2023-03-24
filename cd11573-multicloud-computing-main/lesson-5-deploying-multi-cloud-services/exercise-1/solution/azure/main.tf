@@ -1,5 +1,5 @@
 data "azurerm_resource_group" "example" {
-  name     = "Regroup_4gKqrgD_cn"
+  name     = "Regroup_4fnkUsrV3sEXo7d"
 }
 
 ##### Your code starts here #####
