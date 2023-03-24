@@ -1,7 +1,3 @@
-provider "azurerm" {
-  feature {}
-}
-
 data "azurerm_resource_group" "example" {
   name     = "Regroup_4fnkUsrV3sEXo7d"
 }
