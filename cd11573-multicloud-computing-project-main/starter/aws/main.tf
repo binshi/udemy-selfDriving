@@ -209,7 +209,7 @@ resource "aws_s3_bucket" "shibins3" {
 }
 
 resource "aws_s3_bucket_acl" "bucket_acl" {
-  bucket = aws_s3_bucket.bucket.id
+  bucket = aws_s3_bucket.shibins3.id
   acl    = "private"
 }
 
